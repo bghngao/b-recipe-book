@@ -40,6 +40,10 @@ h6 {
 }
 
 .ul {
+  padding-left: 1.167em;
+}
+
+.column {
   column-count: 2;
   column-gap: 1vw; 
   column-rule: 4px double #ff00ff;
