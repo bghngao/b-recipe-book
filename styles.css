@@ -60,6 +60,7 @@ ul {
 li {
   display: flex;
   align-items: flex-start;
+  display: list-item;
 }
 
 .column-one-third {
