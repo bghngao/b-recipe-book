@@ -47,14 +47,11 @@ ol {
 }
 
 ul {
-  column-count: 2;
-  column-gap: 20px;
-  column-rule: 4px dotted;
+  padding-left: 20px;
 }
 
 .ingredient-column {
   column-count: 2;
-  column-gap: 1vm; 
+  column-gap: 40px; 
   column-rule: 4px dotted;
-  left-padding: 20px;
 }  
