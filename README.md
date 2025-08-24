@@ -1,5 +1,3 @@
 # Recipe Book Project
 
-## Second level
-
-### third level
+This is a project to manage all recipes
