@@ -6,8 +6,8 @@ body {
 
 h1 {
   text-align: center;
-  /*color: #FF007F;
-  font-weight: bold; */
+  color: #FF007F;
+  font-weight: bold;
   font-size: 2em; 
 }
 
@@ -31,4 +31,9 @@ h5 {
 
 h6 {
   font-size: 0.67em;
+}
+
+.ingredients {
+  background-color: lightgrey;
+  gap: 1em;
 }
