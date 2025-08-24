@@ -56,12 +56,3 @@ ul {
   column-gap: 2em; 
   column-rule: 1px dashed #365194;
 }  
-
-.justified-quantity-and-name {
-    align-content: center;
-    flex-basis: 0px;
-    flex-grow: 1;
-    min-width: fit-content;
-    overflow-wrap: anywhere;
-    text-wrap: balance;
-}
