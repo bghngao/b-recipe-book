@@ -49,6 +49,7 @@ ol {
 ul {
   margin: 0;
   padding-left: 20px;
+  display: flex;
 }
 
 .ingredient-column {
@@ -58,7 +59,7 @@ ul {
 }  
 
 li {
-  display: flex;
+  /*display: flex;*/
   align-items: flex-start;
   display: list-item;
 }
