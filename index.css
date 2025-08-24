@@ -11,8 +11,10 @@ h1 {
 }
 
 .ingredients {
-    display: flex;
-    gap: 20px;
+  column-count: 2;
+  column-gap: vw 2;
+  margin-top: 30px;
+  margin-bottom: 30px; 
 }
 
 .instructions{
