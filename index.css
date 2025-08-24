@@ -25,8 +25,8 @@ h1 {
 }
 
 .instructions {
-  margin-top: 30px;
-  background-color: lightblue;
+  gap: 30px;
+  background-color: #add8e6;
   padding: 15px;
   border-radius: 8px;
 }
