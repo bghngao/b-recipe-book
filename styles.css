@@ -2,6 +2,8 @@
 body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #F5F5DD;
+  font-color: #213F84;
+  padding: 1em;
 }
 
 h1 {
@@ -33,8 +35,8 @@ h6 {
   font-size: 0.67em;
 }
 
-.instructions {
-  border: 2px solid #C4C4B0;
+.container {
+  border: 2px solid #C3A97E;
   border-radius: 8px;
   padding: 1em;
   margin: 1em;
