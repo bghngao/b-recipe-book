@@ -63,9 +63,9 @@ li {
 }
 
 .column-one-third {
-  flex: 1;
+  flex-basis: calc(100% * 1/3);
   padding-right: 1em;
 }
 .column-two-thirds {
-  flex: 2;
+   flex-basis: calc(100% * 2/3);
 }
