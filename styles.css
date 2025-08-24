@@ -35,5 +35,12 @@ h6 {
 
 .ingredients {
   background-color: lightgrey;
-  gap: 1em;
+  margin: 1em;
+  border-radius: 8px;
+}
+
+.ul {
+  column-count: 2;
+  column-gap: 1vw; 
+  column-rule: 4px double #ff00ff;
 }
