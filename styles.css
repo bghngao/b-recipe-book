@@ -73,7 +73,7 @@ li {
   flex-basis: 75%;
   padding-right: 1em;
 }
-.column-two-thirds {
+.column-two-third {
   flex-basis: 25%;
   text-align: right;
 }
