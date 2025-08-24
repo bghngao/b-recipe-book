@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
   font-family: Arial, sans-serif;
-  margin: 1.5rem;
+  margin: 30px;
   background-color: #fff8f0;
   color: #333;
 }
@@ -9,19 +9,4 @@ body {
 h1 {
   text-align: center;
   color: #ff007c;
-}
-
-.ingredients {
-  margin: 20px;
-  background-color: lightblue;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-.columns {
-  column-count: 2;
-  column-gap: 1 vm; 
-  column-rule: 4px double #ff00ff;
 }
