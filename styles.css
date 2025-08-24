@@ -1,12 +1,23 @@
 @charset "UTF-8";
 body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
-  background-color: blue;
-  color: white;
+  background-color: #fff8f0;
 }
 
 h1 {
   text-align: center;
   color: #FF007F;
   font-weight: bold;
+}
+
+.ingredients {
+  margin: 20 px;
+  background-color: lightgrey;
+}
+
+ul {
+  gap: 20 px;
+  column-count: 2;
+  column-gap: 1.5 vw;
+  column-rule: 4px double #ff00ff;
 }
