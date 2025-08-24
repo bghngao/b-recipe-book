@@ -55,7 +55,6 @@ ul {
   column-count: 2;
   column-gap: 2em; 
   column-rule: 1px dashed #365194;
-  display: flex;
 }  
 
 .column-one-third {
