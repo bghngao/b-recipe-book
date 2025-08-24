@@ -1,39 +1,32 @@
 @charset "UTF-8";
 body {
-  /* background-color: #eaeaea; */
-  font-family: sans-serif, Arial;
-  margin: 20px; 
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fff8f0;
+  color: #333;
 }
 
 h1 {
-    text-align: center;
-    color: #6b3e26;
+  text-align: center;
+  color: #6b3e26;
 }
 
-.ingredients {
-      display: flex;
-      gap: 20px;
-}
-
-/*
-.ingredients-list {
-  margin-top: 30px;
-  margin-bottom: 30px; 
-  column-count: 2;
-  column-gap: vw 2;
-  column-rule: 1px dotted grey;  
-}
-*/
-
-.instructions{
+.top-section {
+  display: flex;
   gap: 20px;
-  background-color: #f4e1d2; 
-  border-radius: 8px;
+  margin-top: 20px;
 }
 
 .column {
   flex: 1;
-  background-color: #eaeaea;
+  background-color: #f4e1d2;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.bottom-section {
+  margin-top: 30px;
+  background-color: #fdebd0;
   padding: 15px;
   border-radius: 8px;
 }
