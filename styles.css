@@ -53,5 +53,5 @@ ul {
 .ingredient-column {
   column-count: 2;
   column-gap: 40px; 
-  column-rule: 4px dotted;
+  column-rule: 2px dashed #365194;
 }  
