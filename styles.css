@@ -58,7 +58,7 @@ ul {
 }  
 
 .column-one-third {
-  flex-basis: calc(100% 1 / 6);
+  flex-basis: calc(100% * 1 / 6);
 }
 .column-two-thirds {
   flex-basis: calc(100% * 1 / 3);
