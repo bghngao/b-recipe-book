@@ -11,9 +11,9 @@ h1 {
 }
 
 .ingredients {
-  margin-top: 30px;
-  margin-bottom: 30px; 
-  background-color: lightblue;
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
 }
 
 /*
