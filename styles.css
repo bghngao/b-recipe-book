@@ -35,9 +35,9 @@ h6 {
 
 .instructions {
   background-color: lightgrey;
+  border-radius: 8px;
   padding: 1em;
   margin: 1em
-  border-radius: 8px;
 }
 
 ol {
