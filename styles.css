@@ -55,11 +55,12 @@ ul {
   column-count: 2;
   column-gap: 2em; 
   column-rule: 1px dashed #365194;
+  display: flex;
 }  
 
 .column-one-third {
-  flex: 0 0 33.3333%;
+  flex-basis: calc(100% / 3);
 }
 .column-two-thirds {
-  flex: 0 0 66.6667%;
+  flex-basis: calc(100% * 2 / 3);
 }
