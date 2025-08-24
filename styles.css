@@ -51,3 +51,10 @@ ul {
   column-gap: 20px;
   column-rule: 4px dotted;
 }
+
+.ingredient-column {
+  column-count: 2;
+  column-gap: 1vm; 
+  column-rule: 4px dotted;
+  left-padding: 20px;
+}  
