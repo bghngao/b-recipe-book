@@ -38,3 +38,14 @@ h6 {
   margin: 2em;
   border-radius: 8px;
 }
+
+ol {
+  line-height: 1.8;
+}
+
+ul {
+  column-count: 2;
+  column-gap: 20px;
+}
+  
+  
