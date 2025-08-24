@@ -10,13 +10,6 @@ h1 {
     color: #6b3e26;
 }
 
-.column {
-  flex: 1;
-  background-color: #eaeaea;
-  padding: 15px;
-  border-radius: 8px;
-}
-
 .ingredients {
     display: flex;
     gap: 20px;
@@ -26,6 +19,13 @@ h1 {
 .instructions{
   margin-top: 30px;
   background-color: #f4e1d2; 
+  border-radius: 8px;
+}
+
+.column {
+  flex: 1;
+  background-color: #eaeaea;
+  padding: 15px;
   border-radius: 8px;
 }
 
