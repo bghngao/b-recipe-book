@@ -1,4 +1,4 @@
-@charset "UTF-8";
+2@charset "UTF-8";
 body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #FFF8F0;
@@ -33,18 +33,8 @@ h6 {
   font-size: 0.67em;
 }
 
-.ingredients {
-  background-color: lightgrey;
-  margin: 1em;
+.instructions {
+  /*background-color: lightgrey;*/
+  margin: 2em;
   border-radius: 8px;
-}
-
-.ul {
-  padding-left: 1.167em;
-}
-
-.column {
-  column-count: 2;
-  column-gap: 1vw; 
-  column-rule: 4px double #ff00ff;
 }
