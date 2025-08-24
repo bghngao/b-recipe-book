@@ -60,10 +60,13 @@ ul {
 li {
   display: flex;
   align-items: flex-start;
+  padding: 0.15em 
 }
 
 .ingredient-quantity {
-  border-bottom-witdh: 1px black;
+  border-bottom-width: 1px;
+  border-bottom-color: #F1EAD2;
+  border-bottom-style: dashed;
 }
 
 .column-one-third {
