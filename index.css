@@ -13,6 +13,11 @@ h1 {
 .ingredients {
   margin-top: 30px;
   margin-bottom: 30px; 
+  background-color: lightblue;
+}
+.ingredients-list {
+  margin-top: 30px;
+  margin-bottom: 30px; 
   column-count: 2;
   column-gap: vw 2;
   column-rule: 1px dotted grey;  
