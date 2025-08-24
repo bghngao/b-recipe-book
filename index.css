@@ -8,3 +8,16 @@ h1 {
 p {
   color: red;
 }
+
+.column {
+  flex: 1;
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.bottom-section{
+  margin-top: 30px;
+  background-color: #f4e1d2; 
+  border-radius: 8px;
+}
