@@ -15,6 +15,8 @@ h1 {
   margin-bottom: 30px; 
   background-color: lightblue;
 }
+
+/*
 .ingredients-list {
   margin-top: 30px;
   margin-bottom: 30px; 
@@ -22,6 +24,7 @@ h1 {
   column-gap: vw 2;
   column-rule: 1px dotted grey;  
 }
+*/
 
 .instructions{
   gap: 20px;
