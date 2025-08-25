@@ -56,17 +56,20 @@ ul {
   column-gap: 5em; 
   column-rule: 1px dashed #365194;
 }  
-
+/*
 li {
   display: flex;
   align-items: flex-start;
   padding: 0.15em 
-}
+}*/
 
 .ingredient-quantity {
   border-bottom-width: 1px;
   border-bottom-color: #ADD8E7;
   border-bottom-style: dashed;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.15em 
 }
 
 .column-one-third {
