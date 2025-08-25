@@ -37,6 +37,9 @@ h6 {
 
 .main-container {
   max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .container {
