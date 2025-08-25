@@ -72,7 +72,7 @@ li {
 
 .column-one-third {
   flex-basis: 70%;
-  padding-right: 1em;
+  padding-right: 10px;
 }
 .column-two-third {
   flex-basis: 30%;
