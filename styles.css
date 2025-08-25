@@ -70,11 +70,11 @@ li {
   padding: 0.15em 
 }
 
-.column-one-third {
+.column-left-ingredient {
   flex-basis: 70%;
   padding-right: 10px;
 }
-.column-two-third {
+.column-right-amount {
   flex-basis: 30%;
   text-align: right;
 }
