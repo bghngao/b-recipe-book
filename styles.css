@@ -3,45 +3,47 @@ body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #F5F5DD;
   color: #213F84;
-  padding: 1em;
+  padding: 1eem;
 }
 
 .title-recipe {
   text-align: center;
   color: #FF007F;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .title-ingredient {
   text-align: center;
   font-weight: bold;
-  font-size: 1.17rem;
+  font-size: 1.5rem;
   padding: 0;
 }
 
 .title-instruction {
   text-align: center;
   font-weight: bold;
-  font-size: 1.17rem;
+  font-size: 1.5rem;
   padding: 0;
 }
  
 .page-container {
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .container {
   border: 2px solid #C3A97E;
   border-radius: 8px;
-  padding: 1em;
-  margin: 1em;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 ol {
   line-height: 1.8;
+  padding-inline-start: 1.5rem;
 }
 
 ul {
