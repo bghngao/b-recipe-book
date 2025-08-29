@@ -5,7 +5,9 @@ body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #F5F5DD;
   color: #213F84;
-  padding: 1rem;
+  padding: 1em;
+  margin: 0;
+  text-align: center; /* Center text globally */
 }
 
 /* Layout Container */
@@ -14,7 +16,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* Center child elements */
   padding: 0 16px;
 }
 
@@ -25,6 +27,7 @@ body {
 
 .lang.active {
   display: block;
+  width: 100%;
 }
 
 /* Toggle Button */
@@ -32,22 +35,22 @@ body {
   margin: 20px 0;
   padding: 10px 20px;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 /* Title Styles */
 .title-recipe {
-  text-align: center;
   color: #FF007F;
   font-weight: bold;
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .title-ingredient,
 .title-instruction {
-  text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 /* Content Containers */
@@ -55,33 +58,32 @@ body {
   border: 2px solid #C3A97E;
   border-radius: 8px;
   padding: 1rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
   max-width: 512px;
   width: 100%;
   box-sizing: border-box;
+  text-align: center; /* Center text inside containers */
 }
 
 /* Lists */
-ol {
-  line-height: 1.8;
+ol, ul {
+  text-align: left; /* Align list content left for readability */
+  margin: 0 auto;
   padding-inline-start: 1.5rem;
-}
-
-ul {
-  margin: 0;
-  padding: 8px;
+  max-width: 480px;
 }
 
 li {
-  padding: 0.15rem;
+  padding: 0.15em;
 }
 
 /* Ingredient Layout */
 .ingredient-quantity {
   border-bottom: 1px dashed #ADD8E7;
   display: flex;
-  align-items: flex-start;
-  padding: 0.15rem;
+  justify-content: space-between;
+  padding: 0.15em;
+  text-align: left;
 }
 
 .column-left-ingredient {
@@ -89,7 +91,4 @@ li {
   padding-right: 10px;
 }
 
-.column-right-amount {
-  flex-basis: 30%;
-  text-align: right;
-}
+.column
