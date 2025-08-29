@@ -68,11 +68,14 @@ body {
 }
 
 /* Lists */
-ol, ul {
-  margin: 0 auto;
-  padding-inline-start: 1.5rem;
-  max-width: 480px;
+ol {
   line-height: 1.8;
+  padding-inline-start: 1.5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 8px;
 }
 
 li {
