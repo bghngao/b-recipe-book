@@ -5,7 +5,7 @@ body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #F5F5DD;
   color: #213F84;
-  padding: 1rem;
+  padding: 16px;
   margin: 0;
 }
 
@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center child elements */
+  align-items: center; /* Center child elements like .container */
   padding: 0 16px;
 }
 
@@ -35,10 +35,12 @@ body {
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
+  text-align: center;
 }
 
 /* Title Styles */
 .title-recipe {
+  text-align: center;
   color: #FF007F;
   font-weight: bold;
   font-size: 2rem;
@@ -47,6 +49,7 @@ body {
 
 .title-ingredient,
 .title-instruction {
+  text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -61,21 +64,19 @@ body {
   max-width: 512px;
   width: 100%;
   box-sizing: border-box;
+  text-align: left; /* Ensure container text is left-aligned */
 }
 
 /* Lists */
-ol {
-  line-height: 1.8;
+ol, ul {
+  margin: 0 auto;
   padding-inline-start: 1.5rem;
-}
-
-ul {
-  margin: 0;
-  padding: 8px;
+  max-width: 480px;
+  line-height: 1.8;
 }
 
 li {
-  padding: 0.15em;
+  padding: 0.15rem;
 }
 
 /* Ingredient Layout */
@@ -84,7 +85,6 @@ li {
   display: flex;
   justify-content: space-between;
   padding: 0.15rem;
-  text-align: left;
 }
 
 .column-left-ingredient {
