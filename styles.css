@@ -7,7 +7,6 @@ body {
   color: #213F84;
   padding: 1rem;
   margin: 0;
-  text-align: center; /* Center text globally */
 }
 
 /* Layout Container */
@@ -93,4 +92,7 @@ li {
   padding-right: 10px;
 }
 
-.column
+.column-right-amount {
+  flex-basis: 30%;
+  text-align: right;
+}
