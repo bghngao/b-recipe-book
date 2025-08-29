@@ -8,12 +8,12 @@ toggleBtn.addEventListener('click', () => {
   if (currentLang === 'en') {
     enContent.classList.remove('active');
     jaContent.classList.add('active');
-    toggleBtn.textContent = 'Switch to English';
+    toggleBtn.textContent = 'English';
     currentLang = 'ja';
   } else {
     jaContent.classList.remove('active');
     enContent.classList.add('active');
-    toggleBtn.textContent = '日本語に切り替え';
+    toggleBtn.textContent = '日本語';
     currentLang = 'en';
   }
 });
