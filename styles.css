@@ -5,7 +5,7 @@ body {
   font-family: "Ubuntu", "Meiryo", sans-serif;
   background-color: #F5F5DD;
   color: #213F84;
-  padding: 1em;
+  padding: 1rem;
   margin: 0;
   text-align: center; /* Center text globally */
 }
@@ -66,11 +66,14 @@ body {
 }
 
 /* Lists */
-ol, ul {
-  text-align: left; /* Align list content left for readability */
-  margin: 0 auto;
+ol {
+  line-height: 1.8;
   padding-inline-start: 1.5rem;
-  max-width: 480px;
+}
+
+ul {
+  margin: 0;
+  padding: 8px;
 }
 
 li {
@@ -82,7 +85,7 @@ li {
   border-bottom: 1px dashed #ADD8E7;
   display: flex;
   justify-content: space-between;
-  padding: 0.15em;
+  padding: 0.15rem;
   text-align: left;
 }
 
