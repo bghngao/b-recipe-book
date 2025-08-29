@@ -62,7 +62,6 @@ body {
   max-width: 512px;
   width: 100%;
   box-sizing: border-box;
-  text-align: center; /* Center text inside containers */
 }
 
 /* Lists */
