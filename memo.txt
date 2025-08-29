@@ -1,0 +1,64 @@
+
+https://codepen.io/TorabRamin/pen/mqrBBj
+https://hohkfuyuhi.github.io/JS-language-changer/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Language Toggle Example</title>
+  <style>
+    .lang {
+      display: none;
+    }
+    .lang.active {
+      display: block;
+    }
+
+    #toggle-btn {
+      margin: 20px 0;
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <button id="toggle-btn">日本語に切り替え</button>
+
+  <!-- English content -->
+  <div id="en" class="lang active">
+    <h1>Hello</h1>
+    <p>Welcome to our website.</p>
+  </div>
+
+  <!-- Japanese content -->
+  <div id="ja" class="lang">
+    <h1>こんにちは</h1>
+    <p>私たちのウェブサイトへようこそ。</p>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-btn');
+    const enContent = document.getElementById('en');
+    const jaContent = document.getElementById('ja');
+
+    let currentLang = 'en'; // Start with English
+
+    toggleBtn.addEventListener('click', () => {
+      if (currentLang === 'en') {
+        enContent.classList.remove('active');
+        jaContent.classList.add('active');
+        toggleBtn.textContent = 'Switch to English';
+        currentLang = 'ja';
+      } else {
+        jaContent.classList.remove('active');
+        enContent.classList.add('active');
+        toggleBtn.textContent = '日本語に切り替え';
+        currentLang = 'en';
+      }
+    });
+  </script>
+
+</body>
+</html>
