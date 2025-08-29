@@ -80,3 +80,16 @@ li {
   flex-basis: 30%;
   text-align: right;
 }
+
+.lang {
+  display: none;
+}
+
+.lang.active {
+  display: block;
+}
+   
+#toggle-btn {
+      margin: 20px 0;
+      padding: 10px 20px;
+      font-size: 1rem;
