@@ -12,12 +12,11 @@ body {
 /* Layout Container */
 .page-container {
   max-width: 1028px;
-  /*margin: 0 auto;*/
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center child elements like .container */
+  align-items: center; 
   padding: 0;
 }
 
@@ -66,7 +65,7 @@ body {
   max-width: 512px;
   width: 100%;
   box-sizing: border-box;
-  text-align: left; /* Ensure container text is left-aligned */
+  text-align: left;
 }
 
 /* Lists */
